@@ -7,6 +7,9 @@
 # Inherit from msm8953-common
 $(call inherit-product, device/lenovo/msm8953-common/msm8953.mk)
 
+# Get tablet dalvik parameters
+$(call inherit-product,frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
