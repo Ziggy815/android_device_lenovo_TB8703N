@@ -22,5 +22,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     camera.msm8953 
 
+# Camera shim
+PRODUCT_PACKAGES += \
+    libshims_camera
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/lenovo/TB8703N/TB8703N-vendor.mk)
