@@ -22,7 +22,8 @@ TARGET_VENDOR := Lenovo
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="msm8953_64-user 6.0.1 MMB29M 764 release-keys"
+    PRIVATE_BUILD_DESC="msm8953_64-user 6.0.1 MMB29M 764 release-keys" \
+    TARGET_DEVICE="TB-8703N"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Lenovo/TB-8703N/TB-8703N:6.0.1/MMB29M/TB-8703N_USR_S038_180905_Q1241_PRC:user/release-keys"
